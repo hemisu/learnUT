@@ -180,7 +180,7 @@ const config = {
   // A map from regular expressions to paths to transformers
   transform: {
     "\\.[jt]sx?$": "babel-jest",
-    "\\.svg$": "<rootDir>/config/jest/svg-transform.js",
+    "\\.svg$": "<rootDir>/config/jest/svg-transform.js"
   },
 
   // An array of regexp pattern strings that are matched against all source file paths, matched files will skip transformation
