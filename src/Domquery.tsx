@@ -15,6 +15,8 @@ const Domquery = () => {
       <img alt="a query by alt" />
       <span title="a query by title" />
       <div data-testid="a not so good query"></div>
+      <div role="button" aria-label='testlabel1'>aaaaa</div>
+      <div role="button" aria-label='testlabel2'>aaaaa</div>
     </div>
   )
 }

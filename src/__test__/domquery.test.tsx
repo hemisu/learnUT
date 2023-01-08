@@ -55,5 +55,11 @@ describe('tests for 《4｜DOM查询（上）》 & 《5｜Dom查询（下）》'
     screen.debug(testidItem)
   })
 
-  
+  test("test find aaaaa", () => {
+    render(<Domquery />)
+    const testLabel1 = screen.getByRole("button", { name:'testlabel1' })
+    const testLabel2 = screen.getByRole("button", { name:'testlabel2' })
+    screen.debug(testLabel1)
+    screen.debug(testLabel2)
+  })
 })
